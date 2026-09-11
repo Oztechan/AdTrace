@@ -139,7 +139,7 @@ GEM
       google-apis-core (>= 0.15.0, < 2.a)
     google-apis-playcustomapp_v1 (0.18.0)
       google-apis-core (>= 0.15.0, < 2.a)
-    google-apis-storage_v1 (0.66.0)
+    google-apis-storage_v1 (0.67.0)
       google-apis-core (>= 0.15.0, < 2.a)
     google-cloud-core (1.9.0)
       google-cloud-env (>= 1.0, < 3.a)
@@ -182,7 +182,7 @@ GEM
     logger (1.7.0)
     mini_magick (4.13.2)
     mini_mime (1.1.5)
-    multi_json (1.21.1)
+    multi_json (1.21.2)
     multipart-post (2.4.1)
     mutex_m (0.3.0)
     nanaimo (0.4.0)
@@ -314,7 +314,7 @@ CHECKSUMS
   google-apis-firebaseappdistribution_v1alpha (0.30.0) sha256=a6f84a9080ca17c7168af1d0b8da9a016e9059760ccd0e62e8f086680a91e1f9
   google-apis-iamcredentials_v1 (0.28.0) sha256=0a92ffe6cc39c569554af2a77a25dfc61519ed8bbb64ab04cffdd352dc5ef106
   google-apis-playcustomapp_v1 (0.18.0) sha256=44b277b9dee4a59ac5e9d98be1485edc5e382d2f9d73c79ae8908a455786a254
-  google-apis-storage_v1 (0.66.0) sha256=fdf6d65d3fc77e7046b3494333a818ece9e2afd763bb161e1a7a9e70cf198351
+  google-apis-storage_v1 (0.67.0) sha256=13befc89bf03512783f535d214590f15993b0c56411155fd8090ca607e1b8d20
   google-cloud-core (1.9.0) sha256=ab55409f51488e8deefb6edcc1ce4771dfb5da2fe7b3bc075709a030c2b682a4
   google-cloud-env (2.3.1) sha256=0faac01eb27be78c2591d64433663b1a114f8f7af55a4f819755426cac9178e7
   google-cloud-errors (1.7.0) sha256=6e682f42d89aae08689f36f28495de629d756da076bafff0003bac7f8042ebb3
@@ -331,7 +331,7 @@ CHECKSUMS
   logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
   mini_magick (4.13.2) sha256=71d6258e0e8a3d04a9a0a09784d5d857b403a198a51dd4f882510435eb95ddd9
   mini_mime (1.1.5) sha256=8681b7e2e4215f2a159f9400b5816d85e9d8c6c6b491e96a12797e798f8bccef
-  multi_json (1.21.1) sha256=e6126a31808e3b4d19f483c775ceac34df190dffa62adfb63a165ee14ba68080
+  multi_json (1.21.2) sha256=245531eaf54bdba57aba515ff08b4503505c5e09911daa89c5a561e2f85bea8e
   multipart-post (2.4.1) sha256=9872d03a8e552020ca096adadbf5e3cb1cd1cdd6acd3c161136b8a5737cdb4a8
   mutex_m (0.3.0) sha256=cfcb04ac16b69c4813777022fdceda24e9f798e48092a2b817eb4c0a782b0751
   nanaimo (0.4.0) sha256=faf069551bab17f15169c1f74a1c73c220657e71b6e900919897a10d991d0723
