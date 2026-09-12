@@ -143,9 +143,16 @@ android {
     }
 
     // Robolectric renders the shared screen composables for store-screenshot capture.
-    testOptions.unitTests.apply {
-        isIncludeAndroidResources = true
-        all { it.systemProperty("robolectric.pixelCopyRenderMode", "hardware") }
+    testOptions {
+        // A library declares no targetSdk, so AGP stamps compileSdk into the test manifest.
+        // Robolectric only emulates SDKs it ships an android-all jar for, so keep the tests
+        // on the SDK the app actually targets rather than the one it compiles against.
+        targetSdk = ProjectSettings.TARGET_SDK_VERSION
+
+        unitTests.apply {
+            isIncludeAndroidResources = true
+            all { it.systemProperty("robolectric.pixelCopyRenderMode", "hardware") }
+        }
     }
 }
 

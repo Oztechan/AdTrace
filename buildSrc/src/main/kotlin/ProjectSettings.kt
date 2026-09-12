@@ -16,7 +16,7 @@ object ProjectSettings {
 
     const val PROJECT_ID = "com.oztechan.adtrack"
 
-    const val COMPILE_SDK_VERSION = 36
+    const val COMPILE_SDK_VERSION = 37
     const val MIN_SDK_VERSION = 24
     const val TARGET_SDK_VERSION = 36
 
